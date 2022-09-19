@@ -128,12 +128,11 @@ namespace MethodsWithLoopsAndConditionals
             int x = 1;
             while (x<=12)
             {
-                Console.WriteLine($"{userInput*x}");
+                Console.WriteLine($"{userInput} * {x} = {userInput*x}");
                 x++;
             }
         }
-
-
+            
 
 
     }
